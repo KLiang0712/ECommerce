@@ -6,7 +6,8 @@ h4 {
 #cloud1,
 #cloud2,
 #cloud3,
-#cloud4 {
+#cloud4, 
+#cloud5 {
   margin: 0;
   background-color: #ebf9f8;
   text-align: center;
@@ -145,4 +146,16 @@ a:visited {
 
 a:hover {
   color: #33cccc;
+}
+
+#tagcloud5 {
+    font-weight: bold;
+    font-size: 15px;
+    height:100%;
+    width:100%;
+    min-height:150px;
+}
+
+.zc-ref {
+    display:none;  
 }
