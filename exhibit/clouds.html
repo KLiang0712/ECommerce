@@ -17,12 +17,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3 cloud/1.2.5/d3.layout.cloud.min.js"></script>
 
     <!-- echarts -->
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script
+      async
+      src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"
+    ></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/95368/echarts-all-english-v2.js"></script>
 
     <!-- highcharts -->
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/modules/wordcloud.js"></script>
+
+    <!-- zingchart -->
+    <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+    <script>
+      zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+    </script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -33,25 +42,25 @@
 
     <!-- Head content -->
     <title>Word Clouds</title>
-      <link rel="stylesheet" href="/design/clouds.css" />
-      <link rel="stylesheet" href="/design/setup/menu.css" />
-      <link rel="stylesheet" href="/design/setup/styles.css" />
+    <link rel="stylesheet" href="/design/clouds.css" />
+    <link rel="stylesheet" href="/design/setup/menu.css" />
+    <link rel="stylesheet" href="/design/setup/styles.css" />
     <link rel="icon" href="/images/favicon.svg" alt="techis" />
   </head>
 
   <body>
     <section id="topnav">
-        <h1>
-          <img
-            class="icon"
-            src="/images/icon1-6.svg"
-            alt="icon"
-            height="60"
-            width="60"
-          />
-          <b><span class="font-primary">W</span>ord</b>
-          <b><span class="font-primary">C</span>louds</b>
-        </h1>
+      <h1>
+        <img
+          class="icon"
+          src="/images/icon1-6.svg"
+          alt="icon"
+          height="60"
+          width="60"
+        />
+        <b><span class="font-primary">W</span>ord</b>
+        <b><span class="font-primary">C</span>louds</b>
+      </h1>
     </section>
 
     <section id="menu">
@@ -112,17 +121,21 @@
     <div id="tagcloud3"></div>
     <br /><br />
     <h1 id="cloud4">Word Cloud #4</h1>
-    <br>
+    <br />
     <div id="tagcloud4"></div>
-    <br /><br />
 
-     <div class="notes">
-        <h4>Note: Project is subject to changes at any time. New cloud projects may be added or existing projects may be modified.
-        </h4>
-     </div>
+    <h1 id="cloud5">Word Cloud #5</h1>
+    <div id="cloud5" style="height: 100%; width: 100%; min-height: 150px"></div>
+    <br /><br />
+    <div class="notes">
+      <h4>
+        Note: Project is subject to changes at any time. New cloud projects may
+        be added or existing projects may be modified.
+      </h4>
+    </div>
     <br /><br />
     <script src="/backend/echarts.js"></script>
     <script src="/backend/highcharts.js"></script>
-    <script src="/backend/script.js"></script>
+    <script src="/backend/amcharts.js"></script>
   </body>
 </html>

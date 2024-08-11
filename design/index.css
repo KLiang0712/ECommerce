@@ -1,3 +1,39 @@
+*,
+body {
+  font-family: Arial;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+#topnav {
+  background-color: #EBF9F8;
+}
+
+
+h1 {
+  font-size: 30px;
+  margin-left: 60px;
+}
+
+h2 {
+  background-color: #EBF9F8;
+}
+
+h1 span {
+  color: #16bbce;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #16bbce;
+}
+
+h2 span {
+  color: black;
+}
+
 .name {
   text-align: center;
   margin-left: 100px;
@@ -6,6 +42,11 @@
 .theme {
   text-align: center;
   margin-left: 20px;
+}
+
+.square_circle {
+  margin-left: 100px;
+  border-radius: 50%;
 }
 
 /* ACES */
@@ -19,21 +60,14 @@ section #about,
 
 #about p,
 h1 {
-  margin-left: 160px;
+  margin-left: 60px;
 }
 
-#about .email {
-  margin-left: 160px;
-}
-
-#about .contact-info .email,
-.profile3 {
-  text-decoration: none;
-  padding-right: 20px;
-}
-
-#content .contact-icons {
-  flex-direction: row;
+#about #contact-icons img {
+  margin-left: 60px;
+  border: 3px solid #16BBCE;
+  width: 75px;
+  height: 75px; 
 }
 
 #content #card-link {
@@ -50,7 +84,7 @@ h1 {
   border: 4px solid #16bbce;
   font-size: 16px;
   height: 240px;
-  margin-left: 160px;
+  margin-left: 60px;
   width: 400px;
 }
 
@@ -64,17 +98,13 @@ h6 {
   border: 4px solid #16bbce;
   font-size: 16px;
   height: 200px;
-  margin-left: 160px;
+  margin-left: 60px;
   width: 400px;
 }
 
-#skills1-6 {
-  margin-left: 160px;
-  width: 100px;
-  height: 100px;
+.skills6 {
+  margin-left: 60px;
+  width: 75px;
+  height: 75px;
 }
 
-.square_circle {
-  margin-left: 100px;
-  border-radius: 50%;
-}
