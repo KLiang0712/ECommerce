@@ -22,14 +22,16 @@ h6 {
 .reflection1,
 .reflection2,
 .reflection3,
-.reflection4 {
+.reflection4, 
+.reflection5 {
   border: 3px solid #16bbce;
 }
 
 .reflection1,
 .reflection2,
 .reflection3,
-.reflection4 h1 {
+.reflection4, 
+.reflection5 h1 {
   text-align: center;
 }
 
