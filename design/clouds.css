@@ -3,11 +3,7 @@ h4 {
   margin-left: 60px;
 }
 
-#cloud1,
-#cloud2,
-#cloud3,
-#cloud4, 
-#cloud5 {
+#cloud {
   margin: 0;
   background-color: #ebf9f8;
   text-align: center;
@@ -148,14 +144,41 @@ a:hover {
   color: #33cccc;
 }
 
-#tagcloud5 {
-    font-weight: bold;
-    font-size: 15px;
-    height:100%;
-    width:100%;
-    min-height:150px;
+/* #tagcloud5  */
+div.jqcloud {
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto;
+  background-color: #ebf9f8;
+  border: 5px solid #16bbce;
+  font-size: 10px;
+  line-height: normal;
 }
 
-.zc-ref {
-    display:none;  
+div.jqcloud a {
+  font-size: inherit;
+  text-decoration: none;
 }
+
+/* layout */
+div.jqcloud span {
+  padding: 0;
+}
+
+/* font % & colors */
+div.jqcloud span.w1,
+div.jqcloud span.w2,
+div.jqcloud span.w3,
+div.jqcloud span.w4,
+div.jqcloud span.w5,
+div.jqcloud span.w6,
+div.jqcloud span.w7,
+div.jqcloud span.w8,
+div.jqcloud span.w9,
+div.jqcloud span.w10 
+{
+  color: black;
+  font-size: 300%;
+}
+
+

@@ -42,7 +42,7 @@ var myConfig = {
 };
 
 zingchart.render({ 
-  id: 'tagcloud5', 
+  id: 'epicloud', 
   data: myConfig, 
   height: '100%', 
   width: '100%' 

@@ -32,6 +32,12 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- zingchart -->
+    <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+    <script>
+      zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+    </script>
+
     <!-- Head Content -->
     <title>Word Clouds</title>
     <link href="design/setup/styles.css" rel="stylesheet" type="text/css" />
@@ -101,13 +107,17 @@
       <p>
         I am a passionate Computer Science student studying Web Development,
         Python, and Data Analytics.<br />
-        Word Clouds are a personal research project used in both Web Development
+        Word Clouds &#9729 are a personal research project used in both Web Development
         and Data Analytics.<br />
-        My goal is to introduce how Word Clouds have become a unique thematic
+        My goal is to introduce how Word Clouds &#x2601 have become a unique thematic
         icon and how I may use them<br />
         for all my current and future projects.
       </p>
 
+      <div id="epicloud"></div>
+
+      <br>
+      
       <h1 class="profile" style="background: none">
         <span class="font-primary"><b>C</b></span
         ><b>onnection</b> <span class="font-primary"><b>F</b></span
@@ -334,7 +344,7 @@
         <img class="skills6" src="images/skills/web/charts.svg" alt="charts">
         <img class="skills6" src="images/skills/web/giticon.svg" alt="git">
         <img class="skills6" src="images/skills/web/svgicon.svg" alt="svg">
-        <!-- <img class="skills6" src="images/skills/unicode.svg" alt="unicode"> -->
+        <img class="skills6" src="images/skills/web/unicode.svg" alt="unicode">
       </h6>
       <br /><br />
       <h1>
@@ -352,5 +362,6 @@
 
     <br />
     <br />
+    <script src="backend/zingchart.js"></script>
   </body>
 </html>

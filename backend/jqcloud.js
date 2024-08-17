@@ -322,11 +322,11 @@ var word_arrays = [
   { text: "react + redux", weight: 39, html: { class: "category skill" } },
 ];
 
-$("#theme6").jQCloud(word_arrays, {
+$("#tagcloud5").jQCloud(word_arrays, {
   width: 500,
   height: 350,
   afterCloudRender: function () {
-    $("#theme6 > span").on("click", function (e) {
+    $("#tagcloud5 > span").on("click", function (e) {
       e.preventDefault();
       console.log(e.target.innerHTML);
       $(".detailed-tags").prepend(
