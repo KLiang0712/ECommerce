@@ -19,6 +19,8 @@ Word Clouds are a research project covering these fields and are done through cr
 Provided are some generic resources for prepaing this project<br>in addition to the research references:<br>
 Bootstrap Cards V5.0 Retrieved from https://getbootstrap.com/docs/5.0/components/card/<br><br>
 Code Pen Retrieved from https://codepen.io/<br><br>
+Icons8 Icon Recolor Retrieved from https://icons8.com/iconizer/color<br>
+<br>
 SVG Repository Retrieved from https://www.svgrepo.com/
 
 <!-- # Sample Format -->
